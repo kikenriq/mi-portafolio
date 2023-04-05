@@ -132,7 +132,20 @@ img{
 .main{
   overflow: hidden; /*For animation*/
 }
-/*=============== BREAKPOINTS =================*/
+
+/*=============== BUTTONS =================*/
+.button{
+  display: inline-flex;
+  background-color: black;
+  color: var(--text-color);
+  font-weight: var(--font-medium);
+  border-radius: 1rem;
+  padding: 1.25rem 2rem;
+}
+
+.button:hover{
+  background-color: rgb(20, 20, 20);
+}
 
 /*=============== VARIABLES CSS ===============*/
 /*=============== VARIABLES CSS ===============*/
