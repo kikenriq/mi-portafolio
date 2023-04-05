@@ -147,6 +147,22 @@ img{
   background-color: rgb(20, 20, 20);
 }
 
-/*=============== VARIABLES CSS ===============*/
+/*=============== BREAKEPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992x) {
+  
+}
+/* For large devices */
+@media screen and (max-width: 768px) {
+
+}
+/* For large devices */
+@media screen and (max-width: 576px) {
+
+}
+/* For large devices */
+@media screen and (max-width: 390px) {
+
+}
 /*=============== VARIABLES CSS ===============*/
 /*=============== VARIABLES CSS ===============*/
