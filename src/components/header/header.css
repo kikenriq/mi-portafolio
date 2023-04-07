@@ -38,7 +38,7 @@
 
 
 /*=============== BREAKPOINTS =================*/
-@media screen and (max-width: 398px){
+@media screen and (max-width: 768px){
     .container{
         margin-left: var(--mb-1-5);
         margin-right: var(--mb-1-5);
@@ -53,6 +53,11 @@
       right: -100%;
       padding: 4rem 0  0 1rem;
       transition: .3s;
+    }
+
+    /* Show Menu */
+    .show-menu {
+        right: 0;
     }
 
     .nav__list{
@@ -71,5 +76,11 @@
       display: inline-flex;
       font-size: 1.3rem;
       cursor: pointer;
+    }
+
+    .nav__close{
+        position: absolute;
+        right: 3rem;
+        font-size: 2rem;
     }
 }

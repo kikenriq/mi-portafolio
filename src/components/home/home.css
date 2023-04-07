@@ -76,6 +76,7 @@
 }
 
 /*=============== BREAKEPOINTS ===============*/
+
 /* For large devices */
 @media screen and (max-width: 992x) {
     .home__content{
@@ -97,6 +98,26 @@
 /* For large devices */
 @media screen and (max-width: 768px) {
 
+    .home__content {
+        grid-template-columns: 0.5fr 3fr;
+        padding-top: 2.5rem;
+    }
+
+    .home__img {
+        order: initial;
+        justify-self: initial;
+    }
+
+    .home__data {
+        grid-column: 1/3;
+    }
+
+    .home__img {
+        width: 200px;
+        height: 200px;
+        box-shadow: inset 0 0 0 5px rgba(74, 155, 49, 0.568);
+    }
+
 }
 /* For large devices */
 @media screen and (max-width: 576px) {
@@ -104,5 +125,17 @@
 }
 /* For large devices */
 @media screen and (max-width: 390px) {
+
+    .home__title{
+        font-size: 2.5rem;
+    }
+
+    .home__data{
+        padding-top: 3.5rem;
+    }
+
+    .home__social-icon {
+        font-size: 1.2rem;
+    }
 
 }
