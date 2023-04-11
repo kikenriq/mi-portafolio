@@ -22,7 +22,7 @@ const About = () => {
                         iusto in soluta alias odio.
                     </p>
 
-                    <a href="" className="button button--flex">Dowloand CV</a>
+                    <a href="" className="button button--flex">Download CV</a>
                 </div>
             </div>
         </section>

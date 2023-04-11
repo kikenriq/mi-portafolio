@@ -48,7 +48,7 @@
 
 /*=============== BREAKEPOINTS ===============*/
 /* For large devices */
-@media screen and (max-width: 992x) {
+@media screen and (max-width: 992px) {
 
   .about__container {
     grid-template-columns: 1fr;
@@ -77,15 +77,23 @@
   }
 
 }
-/* For large devices */
-@media screen and (max-width: 768px) {
 
-}
 /* For large devices */
 @media screen and (max-width: 576px) {
+
+  .about__info{
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .about__description {
+    padding: 0;
+  }
 
 }
 /* For large devices */
 @media screen and (max-width: 390px) {
 
+    .about__info {
+      grid-template-columns:  repeat(2, 1fr);
+    }
 }
