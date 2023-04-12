@@ -34,7 +34,14 @@
 
 .nav__link {
     color: #fff;
+    background: 
+    linear-gradient(rgb(13, 175, 21), rgb(17, 145, 28)) bottom /var(--d, 0) 3px no-repeat;
+    transition:0.5s;
 }
+
+.nav__link:hover {
+    --d: 100%;
+  }
 
 
 /*=============== BREAKPOINTS =================*/
