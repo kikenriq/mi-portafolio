@@ -15,15 +15,47 @@ const Qualifications = () => {
                     </div>
 
                     <div className="qualification__button button--flex">
-                        Experience
+                        Certifications
                     </div>
                 </div>
 
                 <div className="qualification__sections">
                     <div className="qualification__content">
                         <div className="qualification__data">
+
                             <div>
-                                
+                                <h3 className="qualification__title">Geological Engineering</h3>
+                                <span className="qualification__subtitle">
+                                    Universidad De Oriente - Venezuela
+                                </span>
+                                <div className="qualification__calendar">
+                                    <i class="ri-calendar-2-line"></i> 2008 - 2015
+                                </div>
+                            </div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+
+                        </div>
+
+                        <div className="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="qualification__title"></h3>
+                                <span className="qualification__subtitle">
+                                    Universidad De Oriente - Venezuela
+                                </span>
+                                <div className="qualification__calendar">
+                                    <i class="ri-calendar-2-line"></i> 2008 - 2015
+                                </div>
                             </div>
                         </div>
                     </div>
