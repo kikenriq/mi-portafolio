@@ -16,13 +16,13 @@ const About = () => {
                     <Info />
 
                     <p className="about__description">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                        Qui magni quam cum adipisci consectetur debitis repellendus 
-                        cupiditate natus dicta odit! Cumque magnam vero libero quidem 
-                        iusto in soluta alias odio.
+                    Crafting digital experiences with code and pixels. 
+                    Experienced Frontend Developer specializing
+                    in HTML, CSS, JavaScript, React, Tailwind and Next.js. 
+                    Let's make something beautiful together!
                     </p>
 
-                    <a href="" className="button button--flex">Download CV</a>
+                    <a href="" className="button button--flex"> <i class="ri-download-line"></i>Download CV   </a>
                 </div>
             </div>
         </section>

@@ -46,6 +46,12 @@
     margin-bottom: var(--mb-2-5);
 }
 
+.ri-download-line {
+  display: inline-flex;
+  padding: 3px;
+  font-size: 18px;
+}
+
 /*=============== BREAKEPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
