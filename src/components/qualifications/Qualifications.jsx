@@ -18,20 +18,32 @@ const Qualifications = () => {
                 <div className="qualification__tabs">
                     <div className={toggleState === 1 
                     ? "qualification__button qualification__active button--flex" 
-                    : "qualification__button button--flex"}>
+                    : "qualification__button button--flex"
+                        }
+                    onClick={() => toggleTab(1)}
 
-
-                        
+                    >
                         <i class="ri-graduation-cap-line"></i> Education
                     </div>
 
-                    <div className="qualification__button button--flex">
+                    <div className={toggleState === 2 
+                    ? "qualification__button qualification__active button--flex" 
+                    : "qualification__button button--flex"
+                        }
+                        onClick={() => toggleTab(2)}
+                    >
+
                         <i class="ri-award-line"></i> Certifications
                     </div>
                 </div>
 
                 <div className="qualification__sections">
-                    <div className="qualification__content-active">
+                    <div className={
+                        toggleState === 1 
+                        ? "qualification__content qualification__content-active" 
+                        : "qualification__content"
+                        } 
+                    >
                         <div className="qualification__data">
 
                             <div>
@@ -48,14 +60,17 @@ const Qualifications = () => {
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
                             </div>
-
-                        </div>
-
-                       
+                        </div>  
                     </div>
 
-                    <div className="qualification__content">
-                        <div className="qualification__data">
+                      
+                        <div className={
+                        toggleState === 2
+                        ? "qualification__content qualification__content-active" 
+                        : "qualification__content"
+                        }
+                    > 
+                     <div className="qualification__data">
                             <div></div>
 
                             <div>
@@ -72,10 +87,6 @@ const Qualifications = () => {
                                     <i class="ri-calendar-2-line"></i> 2022
                                 </div>
                             </div>
-                        </div>
-
-                        <div className="qualification__data">
-
                             <div>
                                 <h3 className="qualification__title">UX/UI Design + Figma</h3>
                                 <span className="qualification__subtitle">
@@ -111,7 +122,11 @@ const Qualifications = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+
+                        </div>
+
+                       
+                
                 </div>
             </div>
         </section>
