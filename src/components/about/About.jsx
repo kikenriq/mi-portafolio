@@ -1,6 +1,7 @@
 import React from "react";
 import './about.css'
 import AboutImg from '../../assets/about.jpg'
+import Resume from '../../assets/Resume.pdf'
 import Info from './Info'
 
 const About = () => {
@@ -22,7 +23,7 @@ const About = () => {
                     Let's make something beautiful together!
                     </p>
 
-                    <a href="" className="button button--flex"> <i class="ri-download-line"></i>Download CV   </a>
+                    <a download="" href={Resume} className="button button--flex"> <i class="ri-download-line"></i>Download CV   </a>
                 </div>
             </div>
         </section>

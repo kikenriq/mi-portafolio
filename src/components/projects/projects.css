@@ -32,17 +32,38 @@
 }
 
 .btn {
-    width: max-content;
-    display: inline-block;
+    color: rgb(199, 199, 199);
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25rem;
+    transition: 3s;
+}
+
+.btn:hover {
     color: white;
-    border-radius: 0.4rem;
-    padding: 0.75rem 1.2rem;
-    cursor: pointer;
-    border: 1px solid whitesmoke;
 }
 
-.btn-primary {
-    background-color: #1d2329;
-    color: #fff;
-}
-
+/*=============== BREAKEPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992x) {
+    
+  }
+  /* For large devices */
+  @media screen and (max-width: 768px) {
+    
+  }
+  /* For large devices */
+  @media screen and (max-width: 576px) {
+    .porfolio__container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.5rem;
+    }
+  
+  }
+  /* For large devices */
+  @media screen and (max-width: 390px) {
+    
+  }
