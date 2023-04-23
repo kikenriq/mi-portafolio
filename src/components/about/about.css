@@ -37,8 +37,8 @@
 }
 
 .about__subtitle{
-    font-size: var(--tiny-font-size);
-    color: whitesmoke;
+    font-size: 11px;
+    color: rgb(215, 215, 215);
 }
 
 .about__description {
