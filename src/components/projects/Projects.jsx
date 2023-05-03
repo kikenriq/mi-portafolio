@@ -19,6 +19,7 @@ const Projects = () => {
                     <h3>Solar-Power Landing page Website.</h3>
                     <div className="porfolio__item-cta">
                         <a href="https://kikenriq.github.io/SolarEnergy-Website/" className="btn btn-primary" taget='_blank'>Live Demo</a>
+                        
                     </div>
                 </article>
 
