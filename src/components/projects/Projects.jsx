@@ -3,6 +3,8 @@ import './projects.css'
 import IMG1 from '../../assets/porfolio1.png'
 import IMG2 from '../../assets/porfolio2.png'
 import IMG3 from '../../assets/porfolio3.png'
+import IMG4 from '../../assets/porfolio4.png'
+import IMG5 from '../../assets/porfolio5.png'
 
 const Projects = () => {
     return(
@@ -17,14 +19,10 @@ const Projects = () => {
                     <img src={ IMG1 } alt="" />
                 </div>
 
-                <div className="heading">
-                    <p className="html5">html5</p>
-                    <p className="css">CSS</p>
-                    <p className="js">JavaScript</p>
-                </div>
+        
                 <div class="heading"> Solar Power landing page website</div>
 
-                <button className="btn-project" href="">Live demo</button>
+                <button className="btn-project" href="https://kikenriq.github.io/SolarEnergy-Website/">Live demo</button>
             </div>
 
             <div class="card">
@@ -32,14 +30,10 @@ const Projects = () => {
                     <img src={ IMG2 } alt="" />
                 </div>
 
-                <div className="heading">
-                    <p className="html5">html5</p>
-                    <p className="css">CSS</p>
-                    <p className="js">JavaScript</p>
-                </div>
-                <div class="heading"> Solar Power landing page website</div>
 
-                <button className="btn-project" href="">Live demo</button>
+                <div class="heading"> Skincare Landing page website</div>
+
+                <button className="btn-project" href="https://kikenriq.github.io/Skin-website/">Live demo</button>
             </div>
 
             <div class="card">
@@ -47,14 +41,32 @@ const Projects = () => {
                     <img src={ IMG3 } alt="" />
                 </div>
 
-                <div className="heading">
-                    <p className="html5">html5</p>
-                    <p className="css">CSS</p>
-                    <p className="js">JavaScript</p>
-                </div>
-                <div class="heading"> Solar Power landing page website</div>
+               
+                <div class="heading"> Futras Landing pages health and nutrition. </div>
 
-                <button className="btn-project" href="">Live demo</button>
+                <button className="btn-project" href="https://kikenriq.github.io/Futras/">Live demo</button>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src={ IMG4 } alt="" />
+                </div>
+
+                
+                <div class="heading"> Futras Landing pages health and nutrition. </div>
+
+                <button className="btn-project" href="https://kikenriq.github.io/travel-venezuela/">Live demo</button>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src={ IMG5 } alt="" />
+                </div>
+
+             
+                <div class="heading"> Futras Landing pages health and nutrition. </div>
+
+                <button className="btn-project" href="https://kikenriq.github.io/travel-venezuela/">Live demo</button>
             </div>
 
             </div>

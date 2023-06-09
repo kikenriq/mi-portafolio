@@ -6,7 +6,7 @@
 
 .card {
     width: 250px;
-    height: 320px;
+    height: 300px;
     background: #223345;
     padding: .4em;
     border-radius: 6px;
@@ -60,6 +60,7 @@
     font-weight: 600;
     color: rgb(255, 255, 255);
     padding: 5px;
+    margin-bottom: 1rem;
   }
   
   .heading:hover {
@@ -88,6 +89,10 @@
     color: white;
     font-weight: 500;
     border-radius: 5px;
+  }
+
+  .btn-project:hover{
+    background-color: #1a1a1a;
   }
 
 /*=============== BREAKEPOINTS ===============*/
