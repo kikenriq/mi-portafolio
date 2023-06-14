@@ -4,11 +4,19 @@
     gap: 0.5rem;
 }
 
+a{
+  color: white;
+}
+
+a:hover {
+  background-color: #1a1a1a;
+}
+
 .card {
-    width: 250px;
-    height: 300px;
+    width: 350px;
+    height: 390px;
     background: #223345;
-    padding: .4em;
+    padding: 1rem;
     border-radius: 6px;
   }
   

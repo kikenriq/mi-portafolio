@@ -44,7 +44,11 @@ const Projects = () => {
                
                 <div class="heading"> Futras Landing pages health and nutrition. </div>
 
-                <button className="btn-project" href="https://kikenriq.github.io/Futras/">Live demo</button>
+                <button className="btn-project" href="">
+                    <a href="https://kikenriq.github.io/Futras/">
+                        Live demo
+                    </a>
+                </button>
             </div>
 
             <div class="card">
@@ -53,9 +57,13 @@ const Projects = () => {
                 </div>
 
                 
-                <div class="heading"> Futras Landing pages health and nutrition. </div>
+                <div class="heading"> Travel Landing Page Website </div>
 
-                <button className="btn-project" href="https://kikenriq.github.io/travel-venezuela/">Live demo</button>
+                <button className="btn-project" href="https://kikenriq.github.io/travel-venezuela/">
+                    <a href="https://kikenriq.github.io/travel-venezuela/">
+                        Live Demo
+                    </a>
+                </button>
             </div>
 
             <div class="card">
@@ -64,9 +72,13 @@ const Projects = () => {
                 </div>
 
              
-                <div class="heading"> Futras Landing pages health and nutrition. </div>
+                <div class="heading"> Eduland | Educational landing page website </div>
 
-                <button className="btn-project" href="https://kikenriq.github.io/travel-venezuela/">Live demo</button>
+                <button className="btn-project">
+                    <a href="https://kikenriq.github.io/Eduland/">
+                    Live demo
+                    </a>
+                </button>
             </div>
 
             </div>
