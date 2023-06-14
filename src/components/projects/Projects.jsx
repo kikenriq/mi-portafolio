@@ -45,7 +45,7 @@ const Projects = () => {
                 <div class="heading"> Futras Landing pages health and nutrition. </div>
 
                 <button className="btn-project" href="">
-                    <a href="https://kikenriq.github.io/Futras/">
+                    <a href="https://comfy-douhua-04b6e3.netlify.app">
                         Live demo
                     </a>
                 </button>
